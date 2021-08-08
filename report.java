@@ -17,111 +17,57 @@ public class Report {
     private ArrayList<Transaction> transactions;
     private ArrayList<EquipmentOrder> equipmentOrders;
 
-    public Report() {
 
-    }
+    //Getters and Setters
+    public String getReportName(){}
 
-    public String getReportName() {
-        return reportName;
-    }
+    public void setReportName(String reportName){}
 
-    public void setReportName(String reportName) {
-        this.reportName = reportName;
-    }
+    public boolean isIncludeEmployees(){}
 
-    public boolean isIncludeEmployees() {
-        return includeEmployees;
-    }
+    public void setIncludeEmployees(boolean includeEmployees){}
 
-    public void setIncludeEmployees(boolean includeEmployees) {
-        this.includeEmployees = includeEmployees;
-    }
+    public boolean isIncludeCheckedOut(){}
 
-    public boolean isIncludeCheckedOut() {
-        return includeCheckedOut;
-    }
+    public void setIncludeCheckedOut(boolean includeCheckedOut){}
 
-    public void setIncludeCheckedOut(boolean includeCheckedOut) {
-        this.includeCheckedOut = includeCheckedOut;
-    }
+    public boolean isIncludeDamaged(){}
 
-    public boolean isIncludeDamaged() {
-        return includeDamaged;
-    }
+    public void setIncludeDamaged(boolean includeDamaged){}
 
-    public void setIncludeDamaged(boolean includeDamaged) {
-        this.includeDamaged = includeDamaged;
-    }
+    public boolean isIncludeLocation(){}
 
-    public boolean isIncludeLocation() {
-        return includeLocation;
-    }
+    public void setIncludeLocation(boolean includeLocation){}
 
-    public void setIncludeLocation(boolean includeLocation) {
-        this.includeLocation = includeLocation;
-    }
+    public boolean isIncludeTransactions(){}
 
-    public boolean isIncludeTransactions() {
-        return includeTransactions;
-    }
+    public void setIncludeTransactions(boolean includeTransactions){}
 
-    public void setIncludeTransactions(boolean includeTransactions) {
-        this.includeTransactions = includeTransactions;
-    }
+    public boolean isIncludeTraining(){}
 
-    public boolean isIncludeTraining() {
-        return includeTraining;
-    }
+    public void setIncludeTraining(boolean includeTraining){}
 
-    public void setIncludeTraining(boolean includeTraining) {
-        this.includeTraining = includeTraining;
-    }
+    public boolean isIncludeOrders(){}
 
-    public boolean isIncludeOrders() {
-        return includeOrders;
-    }
+    public void setIncludeOrders(boolean includeOrders){}
 
-    public void setIncludeOrders(boolean includeOrders) {
-        this.includeOrders = includeOrders;
-    }
+    public Date getSearchStart(){}
 
-    public Date getSearchStart() {
-        return searchStart;
-    }
+    public void setSearchStart(Date searchStart){}
 
-    public void setSearchStart(Date searchStart) {
-        this.searchStart = searchStart;
-    }
+    public Date getSearchEnd(){}
 
-    public Date getSearchEnd() {
-        return searchEnd;
-    }
+    public void setSearchEnd(Date searchEnd){}
 
-    public void setSearchEnd(Date searchEnd) {
-        this.searchEnd = searchEnd;
-    }
+    public ArrayList<Employee> getEmployees(){}
 
-    public ArrayList<Employee> getEmployees() {
-        return employees;
-    }
+    public void setEmployees(ArrayList<Employee> employees) {}
 
-    public void setEmployees(ArrayList<Employee> employees) {
-        this.employees = employees;
-    }
+    public ArrayList<Transaction> getTransactions(){}
 
-    public ArrayList<Transaction> getTransactions() {
-        return transactions;
-    }
+    public void setTransactions(ArrayList<Transaction> transactions){}
 
-    public void setTransactions(ArrayList<Transaction> transactions) {
-        this.transactions = transactions;
-    }
+    public ArrayList<EquipmentOrder> getEquipmentOrders(){}
 
-    public ArrayList<EquipmentOrder> getEquipmentOrders() {
-        return equipmentOrders;
-    }
-
-    public void setEquipmentOrders(ArrayList<EquipmentOrder> equipmentOrders) {
-        this.equipmentOrders = equipmentOrders;
-    }
+    public void setEquipmentOrders(ArrayList<EquipmentOrder> equipmentOrders){}
 }

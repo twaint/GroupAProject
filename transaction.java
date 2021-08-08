@@ -13,81 +13,41 @@ public class Equipment {
     private Instant CheckInTime;
     private boolean isDamaged;
 
-    //Constructor
-    public Equipment() {
-
-    }
 
     //Getters and Setters
-    public int getTransactionId() {
-        return transactionId;
-    }
+    public int getTransactionId(){}
 
-    public void setTransactionId(int transactionId) {
-        this.transactionId = transactionId;
-    }
+    public void setTransactionId(int transactionId){}
 
-    public int getBorrowerId() {
-        return borrowerId;
-    }
+    public int getBorrowerId(){}
 
-    public void setBorrowerId(int borrowerId) {
-        this.borrowerId = borrowerId;
-    }
+    public void setBorrowerId(int borrowerId){}
 
-    public int getEquipmentId() {
-        return equipmentId;
-    }
+    public int getEquipmentId(){}
 
-    public void setEquipmentId(int equipmentId) {
-        this.equipmentId = equipmentId;
-    }
+    public void setEquipmentId(int equipmentId){}
 
-    public String getEquipmentName() {
-        return equipmentName;
-    }
+    public String getEquipmentName(){}
 
-    public void setEquipmentName(String equipmentName) {
-        this.equipmentName = equipmentName;
-    }
+    public void setEquipmentName(String equipmentName){}
 
-    public Date getCheckOutDate() {
-        return checkOutDate;
-    }
+    public Date getCheckOutDate(){}
 
-    public void setCheckOutDate(Date checkOutDate) {
-        this.checkOutDate = checkOutDate;
-    }
+    public void setCheckOutDate(Date checkOutDate){}
 
-    public Instant getCheckOutTime() {
-        return CheckOutTime;
-    }
+    public Instant getCheckOutTime(){}
 
-    public void setCheckOutTime(Instant checkOutTime) {
-        CheckOutTime = checkOutTime;
-    }
+    public void setCheckOutTime(Instant checkOutTime){}
 
-    public Date getCheckInDate() {
-        return checkInDate;
-    }
+    public Date getCheckInDate(){}
 
-    public void setCheckInDate(Date checkInDate) {
-        this.checkInDate = checkInDate;
-    }
+    public void setCheckInDate(Date checkInDate){}
 
-    public Instant getCheckInTime() {
-        return CheckInTime;
-    }
+    public Instant getCheckInTime(){}
 
-    public void setCheckInTime(Instant checkInTime) {
-        CheckInTime = checkInTime;
-    }
+    public void setCheckInTime(Instant checkInTime){}
 
-    public boolean isDamaged() {
-        return isDamaged;
-    }
+    public boolean isDamaged(){}
 
-    public void setDamaged(boolean damaged) {
-        isDamaged = damaged;
-    }
+    public void setDamaged(boolean damaged){}
 }

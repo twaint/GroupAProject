@@ -10,78 +10,41 @@ public class Order {
     private String equipmentDeliveryLocation;
     private Equipment equipmentTransferred;
 
-    public Order() {
-    }
 
-    public int getOrderId() {
-        return orderId;
-    }
+    //Getters and Setters
+    public int getOrderId(){}
 
-    public void setOrderId(int orderId) {
-        this.orderId = orderId;
-    }
+    public void setOrderId(int orderId){}
 
-    public String getEquipmentName() {
-        return equipmentName;
-    }
+    public String getEquipmentName(){}
 
-    public void setEquipmentName(String equipmentName) {
-        this.equipmentName = equipmentName;
-    }
+    public void setEquipmentName(String equipmentName){}
 
-    public Date getOrderStartDate() {
-        return orderStartDate;
-    }
+    public Date getOrderStartDate(){}
 
-    public void setOrderStartDate(Date orderStartDate) {
-        this.orderStartDate = orderStartDate;
-    }
+    public void setOrderStartDate(Date orderStartDate){}
 
-    public Date getOrderEndDate() {
-        return orderEndDate;
-    }
+    public Date getOrderEndDate(){}
 
-    public void setOrderEndDate(Date orderEndDate) {
-        this.orderEndDate = orderEndDate;
-    }
+    public void setOrderEndDate(Date orderEndDate){}
 
-    public Instant getOrderStartTime() {
-        return orderStartTime;
-    }
+    public Instant getOrderStartTime(){}
 
-    public void setOrderStartTime(Instant orderStartTime) {
-        this.orderStartTime = orderStartTime;
-    }
+    public void setOrderStartTime(Instant orderStartTime){}
 
-    public Instant getOrderEndTime() {
-        return orderEndTime;
-    }
+    public Instant getOrderEndTime(){}
 
-    public void setOrderEndTime(Instant orderEndTime) {
-        this.orderEndTime = orderEndTime;
-    }
+    public void setOrderEndTime(Instant orderEndTime){}
 
-    public String getEquipmentStartLocation() {
-        return equipmentStartLocation;
-    }
+    public String getEquipmentStartLocation(){}
 
-    public void setEquipmentStartLocation(String equipmentStartLocation) {
-        this.equipmentStartLocation = equipmentStartLocation;
-    }
+    public void setEquipmentStartLocation(String equipmentStartLocation){}
 
-    public String getEquipmentDeliveryLocation() {
-        return equipmentDeliveryLocation;
-    }
+    public String getEquipmentDeliveryLocation(){}
 
-    public void setEquipmentDeliveryLocation(String equipmentDeliveryLocation) {
-        this.equipmentDeliveryLocation = equipmentDeliveryLocation;
-    }
+    public void setEquipmentDeliveryLocation(String equipmentDeliveryLocation){}
 
-    public Equipment getEquipmentTransferred() {
-        return equipmentTransferred;
-    }
+    public Equipment getEquipmentTransferred(){}
 
-    public void setEquipmentTransferred(Equipment equipmentTransferred) {
-        this.equipmentTransferred = equipmentTransferred;
-    }
+    public void setEquipmentTransferred(Equipment equipmentTransferred){}
 }

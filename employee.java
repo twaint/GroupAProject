@@ -8,64 +8,33 @@ public class Employee {
     private Date hireDate;
     private Training ArrayList<Training>;
 
-    //Constructor
-    public Employee() {
-    }
 
     //Getters and Setters
-    public String getFirstName() {
-        return firstName;
-    }
+    public String getFirstName(){}
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
+    public void setFirstName(String firstName){}
 
-    public String getLastName() {
-        return lastName;
-    }
+    public String getLastName(){}
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
+    public void setLastName(String lastName){}
 
-    public int getEquipmentId() {
-        return equipmentId;
-    }
+    public int getEquipmentId(){}
 
-    public void setEquipmentId(int equipmentId) {
-        this.equipmentId = equipmentId;
-    }
+    public void setEquipmentId(int equipmentId){}
 
-    public String getEmployeeType() {
-        return employeeType;
-    }
+    public String getEmployeeType(){}
 
-    public void setEmployeeType(String employeeType) {
-        this.employeeType = employeeType;
-    }
+    public void setEmployeeType(String employeeType){}
 
-    public String getPassword() {
-        return password;
-    }
+    public String getPassword(){}
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
+    public void setPassword(String password){}
 
-    public Date getHireDate() {
-        return hireDate;
-    }
+    public Date getHireDate(){}
 
-    public void setHireDate(Date hireDate) {
-        this.hireDate = hireDate;
-    }
+    public void setHireDate(Date hireDate){}
 
-    public Training getArrayList() {
-        return ArrayList;
-    }
+    public Training getArrayList(){}
 
-    public void setArrayList(Training arrayList) {
-        ArrayList = arrayList;
-    }
+    public void setArrayList(Training arrayList){}
 }
